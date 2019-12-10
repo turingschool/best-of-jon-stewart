@@ -2,20 +2,30 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-    <title></title>
+    <title>Best of Jon Stewart</title>
   </head>
   <body>
     <header>
-
+      <h1>Best of Jon Stewart</h1>
     </header>
     <main>
-      <div class="flip-container">
-        <div class="flipper">
-          <div class="front">?</div>
-          <div class="back jon-stewart"></div>
-        </div>
-      </div>
+      <form class="new-jon-stewart-form">
+        <textarea class="quote-input" type="text" placeholder="Quote"></textarea>
+        <input class="quote-submit" type="submit" value="Add Quote!">
+      </form>
+      <section class="cards">
+        <section class="card">
+          <p class="quote">The Internet is just a world passing around notes in a classroom.</p>
+          <div class="like-btns">
+            <button class="like"></button>
+            <button class="dislike"></button>
+          </div>
+          <p class="like-count-label"><span class="like-count">0</span> likes</p>
+        </section>
+      </section>
     </main>
+    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>

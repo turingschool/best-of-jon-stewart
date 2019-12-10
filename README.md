@@ -10,9 +10,9 @@ This is a small repo that serves as a starter kit for an activity on event bubbl
 
 ## Tasks
 
-### Step 1:
-
 With your partner, whiteboard/journal out a plan for how you will apprach the tasks before writing ANY code for that given task.
+
+### Step 1:
 
 ```
 As a user,

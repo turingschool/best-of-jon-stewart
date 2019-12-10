@@ -1,0 +1,48 @@
+.flip-container {
+	perspective: 1000px;
+}
+
+.flip-container, .front, .back {
+	width: 135px;
+	height: 165px;
+  margin-bottom: 10px;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+  border: 3px solid black;
+  font-size: 500%;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 25%;
+}
+
+.back {
+	transform: rotateY(180deg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.jon-stewart {
+  border: 2px solid red;
+  background-image: url("https://www.thenation.com/wp-content/uploads/2015/07/jon_stewart_ap_img1.jpg");
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}

@@ -16,8 +16,8 @@ With your partner, whiteboard/journal out a plan for how you will apprach the ta
 
 ```
 As a user,
-- When I type in a Jon Stewart quote, the click "Add Quote!",
-- I see that quote appear on a new card to the right (card includes, icons and "0 likes")
+- When I type in a Jon Stewart quote, then click "Add Quote!",
+- I see that quote appear on a new card to the right (card includes icons and "0 likes")
 ```
 
 ### Step 2:
